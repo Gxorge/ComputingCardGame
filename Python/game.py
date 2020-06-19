@@ -109,7 +109,7 @@ def clearTempValues():
 
 #Start up
 print("""
-That one Card Game: Python Addition!
+That one Card Game: Python Edition!
 
 Welcome! I guess let's just get into the sauce, eh?
 First off, I'm gunna need the names of the 2 people playing.
@@ -254,7 +254,7 @@ Game. OVER!
 """ + _globalWinner + """ has won the game!
 They had """ + str(_globalWinnerCards) + """ cards.
 
-""" + getPlayerName(_globalLooserId) + """ was """ + str(_globalWinnerCards - cardsFromId(_globalLooserId)) + """ cards away from winning!
+""" + getPlayerName(_globalLooserId) + """ was """ + str((_globalWinnerCards - cardsFromId(_globalLooserId)) + 1) + """ cards away from winning!
 They had """ + str(cardsFromId(_globalLooserId)) + """ cards.
 
 Thanks for playing!
