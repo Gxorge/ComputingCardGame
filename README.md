@@ -1,4 +1,5 @@
-#ComputingCardGame
+Computing Card Game
+
 Task 3 of the 2021 OCR Computing Project in a lot of different programming languages!
 
 Current supported languages:
